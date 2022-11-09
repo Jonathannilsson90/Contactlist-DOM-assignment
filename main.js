@@ -29,7 +29,6 @@ btn.addEventListener("click", function () {
   /// MODIFY BUTTON CLICK FUNCTION
   modifyBtn.addEventListener("click", function () {
     let selectedParentElement = this.parentNode;
-    console.log(selectedParentElement);
     if (nameList.disabled && phoneList.disabled) {
       nameList.removeAttribute("disabled", "");
       phoneList.removeAttribute("disabled", "");
