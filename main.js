@@ -6,7 +6,6 @@ let removeBtn = document.getElementById("removeAll");
 let li = document.createElement("li");
 
 btn.addEventListener("click", function () {
-  /// CLEAR INPUT FIELD WHEN BUTTON IS PRESSED
 
   let name = inputName.value;
   let phone = inputPhone.value;
