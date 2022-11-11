@@ -71,7 +71,7 @@ btn.addEventListener("click", function (e) {
   phoneFieldInput.value = "";
 });
 
-/// REMOVE ENTIRE LIST
+/// REMOVE ENTIRE LIST BUTTON
 
 removeBtn.addEventListener("click", function () {
   while (ul.hasChildNodes()) {
